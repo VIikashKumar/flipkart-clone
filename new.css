@@ -1,25 +1,193 @@
-*{
-    margin: 0%;
+/* header */
+
+._header {
+    height: 96px;
+    border: 1px solid red;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+
+
+/* _header_top */
+
+._header_top {
+    height: 56px;
     background-color: #2874f0;
-  }
-  
-li{
-    float: right;
-  }
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 56px;
-    text-decoration: none;
-  }
-#input{
-    align-items: center  ;
+}
+
+
+/* header _header_bottom */
+
+.__header_bottom {
+    height: 40px;
+    background-color: #ffffff;
+}
+
+
+/* outer container */
+
+._heading {
+    width: 99%;
+    height: 11406px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #f1f3f6;
+}
+
+
+/* inside outer cintainer main1 */
+
+._main1 {
+    height: 280px;
+    margin-top: 8px;
+    border: 1px dashed red;
+    background-color: #ffffff;
+}
+
+
+/* inside outer cintainer main2 */
+
+._main2 {
+    height: 362px;
+    margin-top: 10px;
+    border-top: 1px solid #ebebeb;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+/* inside outer cintainer main3 */
+
+._main3 {
+    height: 238px;
+    margin-top: 20px;
+    border: 1px dashed blue;
+}
+
+
+/* inside outer cintainer main4 */
+
+._main4 {
+    height: 352px;
+    margin-top: 11px;
+    border: 1px dashed #0000;
+    background-color: #ffffff;
+}
+
+
+/* inside outer cintainer main5 */
+
+._main5 {
+    height: 237px;
+    margin-top: 10px;
+    border: 1px dashed #476947;
+}
+
+
+/* inside outer cintainer main6 */
+
+._main6 {
+    height: 377px;
+    margin-top: 10px;
+    border: 1px dashed red;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+/* inside outer cintainer main7 */
+
+._main7 {
+    height: 352px;
+    margin-top: 11px;
+    border: 1px dashed #0000;
+    background-color: #ffffff;
+}
+
+
+/* inside outer cintainer main8 */
+
+._main8 {
+    height: 237px;
+    margin-top: 10px;
+    border: 1px dashed #476947;
+}
+
+
+/* inside outer cintainer main9 */
+
+._main9 {
+    height: 377px;
+    margin-top: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+/* inside outer cintainer main10 */
+
+._main10 {
+    height: 352px;
+    margin-top: 11px;
+    border: 1px dashed #0000;
+    background-color: #ffffff;
+}
+
+
+/* inside outer cintainer main11 */
+
+._main11 {
+    height: 237px;
+    margin-top: 10px;
+    border: 1px dashed #476947;
+}
+
+
+/* inside outer cintainer main12 */
+
+._main12 {
+    height: 377px;
+    margin-top: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+/* inside outer cintainer main13 */
+
+._main13 {
+    height: 352px;
+    margin-top: 11px;
+    border: 1px dashed #0000;
+    background-color: #ffffff;
+}
+
+
+/* inside outer cintainer main14 */
+
+._main14 {
+    height: 237px;
+    margin-top: 10px;
+    border: 1px dashed #476947;
+}
+
+
+/* inside outer cintainer main15 */
+
+._main15 {
+    height: 377px;
+    margin-top: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+/* inside outer cintainer main16 */
+
+._main16 {
+    height: 377px;
+    margin-top: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+
+
+/* footer */
+
+._footer {
+    height: 332px;
+    background-color: #172337;
 }
