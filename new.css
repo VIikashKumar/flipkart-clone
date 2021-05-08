@@ -11,6 +11,14 @@
 ._header_top {
     height: 56px;
     background-color: #2874f0;
+    position: fixed;
+    display: flex;
+    flex: auto;
+    width: 100%;
+    color: #f0f0f0;
+    z-index: 10;
+    flex-direction: row;
+    align-items:center;
 }
 
 
@@ -191,3 +199,83 @@
     height: 332px;
     background-color: #172337;
 }
+html,body{
+  margin:0;
+  padding:0;
+  }
+  .firstHalf{
+  display:flex;
+  justify-content:flex-end;
+  width:60%;
+  padding:0 20px;
+  }
+  .firstHalf .iconImg{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  }
+  .firstHalf .headerImg{
+  width:30%;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  margin-right:10px;
+  }
+  .firstHalf .searchBox{
+  width:70%;
+  display:flex;
+  justify-content:flex-start;
+  }
+  .firstHalf .searchBox input{
+      width:100%;
+      padding: 0 16px;
+      border-radius: 2px 0 0 2px;
+      border: 0;
+      outline: 0 none;
+      font-size: 14px;
+      height: 36px;
+      width: 100%;
+  }
+  .secondHalf{
+  display:flex;
+  justify-content:flex-start;
+  width:40%;
+  padding:0 20px;
+  align-items: center;
+  }
+  .secondHalf .actionButtons{
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      height: 100%;
+      line-height: 20px;
+      font-size: 16px;
+      letter-spacing: .1px;
+      font-weight: 500;
+      color: #fff;
+      padding: 8px 30px;;
+  }
+  .explore{
+      font-size: 11px;
+      font-style: italic;
+      margin-top: -1px;
+  }
+  .exploretext{
+    color:white;
+  }
+  .plus{
+  color: #ffe500;
+      font-weight: 500;
+      margin-right: 2px;
+  }
+
+  .login{
+      color: #2874f0 !important;
+      font-weight: 500 !important;
+      background-color: #fff !important;
+      cursor: pointer;
+      border-radius: 2px !important;
+      padding: 5px 40px !important;
+      border: 1px solid #dbdbdb !important;
+  }
