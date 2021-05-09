@@ -15,21 +15,27 @@
         
         ._carousel-control {
             width: 4%;
-            height: 50%;
+            height: 35%;
             opacity: 1;
             background-color: #ffffff;
-            margin-top: 65px;
+            margin-top: 80px;
         }
         /* _carousel-span */
         
-        ._carousel-span {
-            color: #212121;
+        ._carousel-control i {
+            color: #212121 !important;
+            font-size: 1.5em;
         }
         /* edge of  the arrow */
         
-        #demo._carousel-control-prev {
+        #demo .carousel-control-prev {
             border-top-right-radius: 5px;
             border-bottom-right-radius: 5px;
+        }
+        
+        #demo .carousel-control-next {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
         }
     </style>
 
@@ -71,11 +77,11 @@
                 </div>
 
                 <!-- Left and right controls -->
-                <a class="carousel-control-prev  _carousel-control" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon _carousel-span"></span>
+                <a class="carousel-control-prev _carousel-control" href="#demo" data-slide="prev">
+                    <i class="fa fa-chevron-left"></i>
                 </a>
-                <a class="carousel-control-next  _carousel-control" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon _carousel-span"></span>
+                <a class="carousel-control-next _carousel-control" href="#demo" data-slide="next">
+                    <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
 
